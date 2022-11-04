@@ -27,8 +27,6 @@ const linkedList = {
     },
   };
 
-
-
   function recursion(object) {
     for(let key in object) {
         if (typeof(object[key]) == 'object') {
